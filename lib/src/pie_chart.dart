@@ -167,7 +167,6 @@ class _PieChartState extends State<PieChart>
           child: Wrap(
             spacing: 10,
             crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min,
             children: legendTitles
                 .map((item) => Legend(
                       title: item,
